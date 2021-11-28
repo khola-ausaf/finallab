@@ -1,0 +1,166 @@
+namespace ConsoleApp16
+{
+    public class employee : iemployee
+    {
+        private int employee;
+
+        public event EventHandler employeeevent;
+
+        public string firstname
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public string lastname
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public char gender
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public int dependents
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public double annualsalary
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public int benefits
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public void calucatepay()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+
+    public class benefit
+    {
+        public employee eb
+        {
+            get => default(employee);
+            set
+            {
+            }
+        }
+
+        public void healthinsurance()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void lifetieinsuace()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}
+namespace ConsoleApp16
+{
+    public class employee : iemployee
+    {
+        private int employee;
+
+        public event EventHandler employeeevent;
+
+        public string firstname
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public string lastname
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public char gender
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public int dependents
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public double annualsalary
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public int benefits
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public void calucatepay()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+
+    public class benefit
+    {
+        public employee eb
+        {
+            get => default(employee);
+            set
+            {
+            }
+        }
+
+        public void healthinsurance()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void lifetieinsuace()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}
